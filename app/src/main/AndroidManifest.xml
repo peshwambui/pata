@@ -12,6 +12,9 @@
         android:theme="@style/Theme.PataInsurance"
         tools:targetApi="31">
         <activity
+            android:name=".QuoteActivity"
+            android:exported="false" />
+        <activity
             android:name=".MotorActivity"
             android:exported="false" />
         <activity

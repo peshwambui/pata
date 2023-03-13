@@ -2,16 +2,19 @@ package com.pennywamboh.patainsurance;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MotorActivity extends AppCompatActivity {
 
     Spinner spinnerCoverTypes, spinnerUsage, spinnerModel, spinnerCarMake;
+    Button btnGetQuote;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +28,7 @@ public class MotorActivity extends AppCompatActivity {
         spinnerUsage = findViewById(R.id.spinnerUsage);
         spinnerModel = findViewById(R.id.spinnerModel);
         spinnerCarMake = findViewById(R.id.spinnerCarMake);
+        btnGetQuote = findViewById(R.id.btnGetQuote);
 
 
 
@@ -56,6 +60,14 @@ public class MotorActivity extends AppCompatActivity {
 
             }
 
+        });
+
+        btnGetQuote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MotorActivity.this, QuoteActivity.class);
+                startActivity(i);
+            }
         });
     }
 
