@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Pata insurance</string>
+    <string-array name="cover_types">
+        <item>Comprehensive</item>
+        <item>Third Party Only</item>
+    </string-array>
+
+    <string-array name="vehicle_usage">
+        <item>Private</item>
+        <item>PSV</item>
+        <item>Commercial</item>
+    </string-array>
+
+    <string-array name="vehicle_makes">
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Subaru</item>
+        <item>Mitsubishi</item>
+        <item>Honda</item>
+        <item>Isuzu</item>
+        <item>Mazda</item>
+        <item>Suzuki</item>
+    </string-array>
+
+
+    <string-array name="toyota_models">
+        <item>Corolla</item>
+        <item>Camry</item>
+        <item>Land Cruiser</item>
+        <item>Prado</item>
+        <item>Rav4</item>
+        <item>Hilux</item>
+        <item>Fortuner</item>
+        <item>Alphard</item>
+        <item>Premio</item>
+        <item>Allion</item>
+    </string-array>
+
+    <string-array name="nissan_models">
+        <item>X-Trail</item>
+        <item>Navara</item>
+        <item>Pathfinder</item>
+        <item>Patrol</item>
+        <item>Sentra</item>
+        <item>March</item>
+        <item>Note</item>
+        <item>Tiida</item>
+        <item>Sunny</item>
+        <item>Altima</item>
+    </string-array>
+
+    <string-array name="subaru_models">
+        <item>Impreza</item>
+        <item>Legacy</item>
+        <item>Forester</item>
+        <item>XV</item>
+        <item>Outback</item>
+        <item>Levorg</item>
+        <item>Crosstrek</item>
+        <item>WRX</item>
+        <item>BRZ</item>
+        <item>STI</item>
+    </string-array>
+
+    <string-array name="mitsubishi_models">
+        <item>Pajero</item>
+        <item>Lancer</item>
+        <item>Outlander</item>
+        <item>Mirage</item>
+        <item>ASX</item>
+        <item>Canter</item>
+        <item>Fuso</item>
+        <item>L200</item>
+        <item>RVR</item>
+        <item>Galant</item>
+    </string-array>
+
+    <string-array name="honda_models">
+        <item>Civic</item>
+        <item>Accord</item>
+        <item>CR-V</item>
+        <item>HR-V</item>
+        <item>Fit</item>
+        <item>City</item>
+        <item>Odyssey</item>
+        <item>Stream</item>
+        <item>Pilot</item>
+        <item>Insight</item>
+    </string-array>
+
+    <string-array name="isuzu_models">
+        <item>N-Series</item>
+        <item>FSR</item>
+        <item>FTR</item>
+        <item>FVR</item>
+        <item>NQR</item>
+        <item>NPR</item>
+        <item>Elf</item>
+        <item>D-Max</item>
+        <item>Trooper</item>
+        <item>MU-X</item>
+    </string-array>
+
+    <string-array name="mazda_models">
+        <item>Demio</item>
+        <item>Axela</item>
+        <item>Premacy</item>
+        <item>Atenza</item>
+        <item>CX-5</item>
+        <item>BT-50</item>
+        <item>Tribute</item>
+        <item>Bongo</item>
+        <item>Verisa</item>
+        <item>RX-8</item>
+    </string-array>
+
+    <string-array name="suzuki_models">
+        <item>Swift</item>
+        <item>Ciaz</item>
+        <item>Celerio</item>
+        <item>Grand Vitara</item>
+    </string-array>
+
+
+</resources>
